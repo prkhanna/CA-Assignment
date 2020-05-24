@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Everjobs Suite" duration-ms="263304" started-at="2020-05-24T21:36:56 IST" finished-at="2020-05-24T21:41:19 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:selenium.qa.auto.modules.TestRunner@79be0360]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="SeleniumTest" duration-ms="263304" started-at="2020-05-24T21:36:56 IST" finished-at="2020-05-24T21:41:19 IST">
+      <class name="selenium.qa.auto.modules.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:selenium.qa.auto.modules.TestRunner@79be0360]" name="setUpClass" is-config="true" duration-ms="405" started-at="2020-05-24T21:36:56 IST" finished-at="2020-05-24T21:36:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:selenium.qa.auto.modules.TestRunner@79be0360]" name="feature" duration-ms="115584" started-at="2020-05-24T21:36:56 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-24T21:38:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Account creation page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:selenium.qa.auto.modules.TestRunner@79be0360]" name="feature" duration-ms="147146" started-at="2020-05-24T21:38:52 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-24T21:41:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Account creation page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:selenium.qa.auto.modules.TestRunner@79be0360]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2020-05-24T21:41:19 IST" finished-at="2020-05-24T21:41:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- selenium.qa.auto.modules.TestRunner -->
+    </test> <!-- SeleniumTest -->
+  </suite> <!-- Everjobs Suite -->
+</testng-results>
